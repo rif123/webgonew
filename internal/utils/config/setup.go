@@ -23,11 +23,11 @@ func Initialize() error {
 	flag.IntVar(&MaxDBConnections, "max_db_connections", 15, "")
 	flag.StringVar(&DMSURL, "dms_url", "", "DMS_URL")
 
-	config.SetConfigName("App")
-	config.SetConfigType("yaml")
-	config.AddConfigPath(p)
-	config.AddConfigPath("./configurations")
-	config.AddConfigPath(GetDefaultConfigPath())
+	// config.SetConfigName("App")
+	// config.SetConfigType("yaml")
+	// config.AddConfigPath(p)
+	// config.AddConfigPath("./configurations")
+	// config.AddConfigPath(GetDefaultConfigPath())
 
 	//Set config value here. Set default value to zero value
 	// if parameter is required

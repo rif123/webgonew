@@ -4,8 +4,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/webgonew/internal/utils/config"
-	"github.com/webgonew/internal/utils/logger"
+	"github.com/rif123/webgonew/internal/utils/config"
+	"github.com/rif123/webgonew/internal/utils/logger"
 	"gopkg.in/jackc/pgx.v2"
 )
 

@@ -9,7 +9,7 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"
-	"github.com/webgonew/internal/controller"
+	"github.com/rif123/webgonew/internal/controller"
 )
 
 func GetRoutes() *chi.Mux {

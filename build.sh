@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Setting env vars"
-source $GOPATH/src/github.com/webgonew/dev.env
+source $GOPATH/src/github.com/rif123/webgonew/dev.env
 
 echo "Doing some cleaning ..."
 go clean

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/webgonew/config"
+	"github.com/rif123/webgonew/config"
 )
 
 //StartDMSPinger is a goroutine to keep pinging Dead Man Snitch.

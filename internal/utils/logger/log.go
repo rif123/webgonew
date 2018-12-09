@@ -6,8 +6,8 @@ import (
 
 	"os"
 
+	"github.com/rif123/webgonew/internal/utils/config"
 	log "github.com/sirupsen/logrus"
-	"github.com/webgonew/internal/utils/config"
 )
 
 func init() {

@@ -7,8 +7,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/webgonew/internal/utils/logger"
-	"github.com/webgonew/public/dtos"
+	"github.com/rif123/webgonew/internal/utils/logger"
+	"github.com/rif123/webgonew/public/dtos"
 )
 
 func LogAndWriteResponse(w http.ResponseWriter, r *http.Request, h func(l *log.Entry) ([]byte, int)) {

@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/webgonew/internal/router"
-	"github.com/webgonew/internal/utils/config"
-	"github.com/webgonew/internal/utils/logger"
+	"github.com/rif123/webgonew/internal/router"
+	"github.com/rif123/webgonew/internal/utils/config"
+	"github.com/rif123/webgonew/internal/utils/logger"
 )
 
 func main() {
